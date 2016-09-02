@@ -1,0 +1,37 @@
+{
+  "name": "metalsmith-validate-html",
+  "version": "0.1.0",
+  "description": "Metalsmith plugin implementing https://github.com/zrrrzzt/html-validator",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalamuna/metalsmith-validate-html.git"
+  },
+  "keywords": [
+    "Metalsmith",
+    "Kalastatic",
+    "Prototyping",
+    "html",
+    "validation"
+  ],
+  "author": "Thiago de Mello Bueno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalamuna/metalsmith-validate-html/issues"
+  },
+  "homepage": "https://github.com/kalamuna/metalsmith-validate-html#readme",
+  "devDependencies": {
+    "metalsmith": "^2.1.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-twig": "https://github.com/thiagodemellobueno/metalsmith-twig",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.3",
+    "twig": "^0.9.5"
+  },
+  "dependencies": {
+    "html-validator": "^2.0.1"
+  }
+}
